@@ -403,7 +403,7 @@ export default async function Home({
         )}
         <a
           href="/api/auth/logout"
-          className="text-[10px] tracking-[0.25em] font-medium uppercase text-foreground/70 hover:text-accent [writing-mode:vertical-rl] whitespace-nowrap"
+          className="bg-foreground text-white font-bold uppercase tracking-[0.2em] text-sm px-3 py-4 rounded-lg [writing-mode:vertical-rl] whitespace-nowrap hover:opacity-80 transition-opacity"
         >
           Odhlásit
         </a>
