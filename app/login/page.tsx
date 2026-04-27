@@ -10,7 +10,7 @@ export default async function LoginPage({ searchParams }: Props) {
       <div className="text-center text-base sm:text-xl uppercase tracking-[0.3em] font-medium text-foreground/60 mb-3 sm:mb-5">
         Strava Visualizer
       </div>
-      <h1 className="text-accent font-black tracking-tighter leading-[0.9] text-[clamp(4rem,18vw,12rem)] mb-12 sm:mb-16 text-center">
+      <h1 className="text-foreground font-black tracking-tighter leading-[0.9] text-[clamp(4rem,18vw,12rem)] mb-12 sm:mb-16 text-center">
         AKTIVITY
       </h1>
 
